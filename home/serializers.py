@@ -11,7 +11,7 @@ class BeaconSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = AuthUser
-        fields = ('username','email','last_login')
+        fields = ('id','email','score')
 
 
 
