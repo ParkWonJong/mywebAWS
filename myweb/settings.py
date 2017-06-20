@@ -87,6 +87,7 @@ DATABASES = {
         'PORT':'XXXX',
         'OPTIONS':{
             'init_command': "SET sql_mode = 'STRICT_TRANS_TABLES'",
+            'unix_socket': "/tmp/mysql.sock",
         },
     }
 }
