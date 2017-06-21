@@ -83,12 +83,12 @@ DATABASES = {
         'NAME': 'reminder',
         'USER': 'root',
         'PASSWORD':'1111',
-        'HOST':'127.0.0.1',
+        'HOST':'localhost',
         'PORT':'3306',
         'OPTIONS':{
             'init_command': "SET sql_mode = 'STRICT_TRANS_TABLES'",
             'unix_socket': "/tmp/mysql.sock",
-            'read_default_file': '/etc/mysql/my.cnf',
+            
         },
     }
 }
