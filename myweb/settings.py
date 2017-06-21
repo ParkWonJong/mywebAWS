@@ -88,7 +88,7 @@ DATABASES = {
         'OPTIONS':{
             'init_command': "SET sql_mode = 'STRICT_TRANS_TABLES'",
             'unix_socket': "/tmp/mysql.sock",
-            'read_default_file': '/etc/mysql/my.cnf',
+            'read_default_file': '/path/to/my.cnf',
         },
     }
 }
